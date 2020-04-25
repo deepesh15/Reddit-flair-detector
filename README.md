@@ -1,1 +1,2 @@
-# Flare-Detector
+# Reddit Flair Detector
+
