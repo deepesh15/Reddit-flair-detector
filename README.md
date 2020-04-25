@@ -10,7 +10,7 @@ Data was then cleaned and formatted and stored in data.csv for Exploratory Data 
 ### 4.Random Forest
 ### 5.Multi-Layer Perceptron Classifier
 
-#These were tested on the dataset by the following methods:
+These were tested on the dataset by the following methods:
 ### 1.Using 'title' as a feature
 ### 2.Using 'comment' as a feature
 ### 3.Using 'URL' as a feature
@@ -25,7 +25,7 @@ Random Forest	             0.811	0.567	   0.619	0.555	 0.835
 MLP Classifier	           0.762	0.512	   0.591	0.521	 0.735
 
 
-It was found that by combining all the features, the models performed significantly better, so all features were combined out of the five classification models that we had built earlier it was observed that ### Random Forest gave the best accuracy but the problem was the size of the model's file (RF.pkl) which as too big to be uploaded on github therefore, we used the second best model ### Logistics Regression
+It was found that by combining all the features, the models performed significantly better, so all features were combined out of the five classification models that we had built earlier it was observed that <b>Random Forest</b> gave the best accuracy but the problem was the size of the model's file (RF.pkl) which as too big to be uploaded on github therefore, we used the second best model ### Logistics Regression
 
 Then the web Application was built using Flask 
 the application has an endpoint(/autmated_testing ) for testing the classifier autmatically 
