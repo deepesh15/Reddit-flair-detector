@@ -31,4 +31,4 @@ It was found that by combining all the features, the models performed significan
 Then the web Application was built using Flask 
 the application has an endpoint(/autmated_testing ) for testing the classifier autmatically 
 the application has been deployed on Heroku 
-link:- https://flair-classifier.herokuapp.com/
+link:- https://flair-detector-v1.herokuapp.com/
