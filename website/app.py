@@ -9,9 +9,9 @@ import pickle
 
 model = pickle.load(open('models/RF.pkl', 'rb'))
 
-reddit = praw.Reddit(client_id='OLWVW-YovatlVA',
-                     client_secret='cTA25hqDeIlzYxSBhmAk6dq1Vyo',
-                     user_agent='Reddit-Scrapper')
+reddit = praw.Reddit(client_id='client-id',
+                     client_secret='client-secret',
+                     user_agent='user-agent')
 
 
 def prediction(url):
